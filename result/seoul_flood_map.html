@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2081a193a99f3f9ef4775b103b8c0db8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2081a193a99f3f9ef4775b103b8c0db8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2081a193a99f3f9ef4775b103b8c0db8 = L.map(
+                "map_2081a193a99f3f9ef4775b103b8c0db8",
+                {
+                    center: [37.566755, 126.978139],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a43a953c9d1ccc6ede7ffc54c3536dee = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a43a953c9d1ccc6ede7ffc54c3536dee.addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+            var circle_aa039d1e38b694d2f50612f59fd57635 = L.circle(
+                [37.517711, 127.04745],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_07990cf0c05b902d881e7a8c49539b7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47798e11ec30a4f47b63af56d30285ec = $(`<div id="html_47798e11ec30a4f47b63af56d30285ec" style="width: 100.0%; height: 100.0%;">강남구 - 침수 20회</div>`)[0];
+                popup_07990cf0c05b902d881e7a8c49539b7d.setContent(html_47798e11ec30a4f47b63af56d30285ec);
+            
+        
+
+        circle_aa039d1e38b694d2f50612f59fd57635.bindPopup(popup_07990cf0c05b902d881e7a8c49539b7d)
+        ;
+
+        
+    
+    
+            var circle_5a4ba0b499b698f57a0f74fb98a7f705 = L.circle(
+                [37.530335, 127.123802],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3800, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_35767e36295548a0b38c96b995627e01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ca572a92175dd0242aa58f6cd0c6239 = $(`<div id="html_8ca572a92175dd0242aa58f6cd0c6239" style="width: 100.0%; height: 100.0%;">강동구 - 침수 19회</div>`)[0];
+                popup_35767e36295548a0b38c96b995627e01.setContent(html_8ca572a92175dd0242aa58f6cd0c6239);
+            
+        
+
+        circle_5a4ba0b499b698f57a0f74fb98a7f705.bindPopup(popup_35767e36295548a0b38c96b995627e01)
+        ;
+
+        
+    
+    
+            var circle_82d66bbb8affca0c0f77f5c332546171 = L.circle(
+                [37.63993, 127.02554],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4400, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_2f4870aaf91373e08f73b381d54eea0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_852d2e21c95729bed2a4ff32ff96e396 = $(`<div id="html_852d2e21c95729bed2a4ff32ff96e396" style="width: 100.0%; height: 100.0%;">강북구 - 침수 22회</div>`)[0];
+                popup_2f4870aaf91373e08f73b381d54eea0b.setContent(html_852d2e21c95729bed2a4ff32ff96e396);
+            
+        
+
+        circle_82d66bbb8affca0c0f77f5c332546171.bindPopup(popup_2f4870aaf91373e08f73b381d54eea0b)
+        ;
+
+        
+    
+    
+            var circle_a41422eaeafac5eccb4215f979824610 = L.circle(
+                [37.551097, 126.849617],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2800, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_9e7769a2041692dd4f4710ceff0e0e38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4569f21e2586e7cc82a3d3999221ff4b = $(`<div id="html_4569f21e2586e7cc82a3d3999221ff4b" style="width: 100.0%; height: 100.0%;">강서구 - 침수 14회</div>`)[0];
+                popup_9e7769a2041692dd4f4710ceff0e0e38.setContent(html_4569f21e2586e7cc82a3d3999221ff4b);
+            
+        
+
+        circle_a41422eaeafac5eccb4215f979824610.bindPopup(popup_9e7769a2041692dd4f4710ceff0e0e38)
+        ;
+
+        
+    
+    
+            var circle_01ebcf29ed23365cf8ff5270e31693b5 = L.circle(
+                [37.478431, 126.951617],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2600, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_8eb1dbe7f77a4944dbc4293f4b937ddb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04f9b5bc115d9d14abb292d992a1ff8e = $(`<div id="html_04f9b5bc115d9d14abb292d992a1ff8e" style="width: 100.0%; height: 100.0%;">관악구 - 침수 13회</div>`)[0];
+                popup_8eb1dbe7f77a4944dbc4293f4b937ddb.setContent(html_04f9b5bc115d9d14abb292d992a1ff8e);
+            
+        
+
+        circle_01ebcf29ed23365cf8ff5270e31693b5.bindPopup(popup_8eb1dbe7f77a4944dbc4293f4b937ddb)
+        ;
+
+        
+    
+    
+            var circle_1b0e37373d554ad3d40eac6d2db5a234 = L.circle(
+                [37.544831, 127.089742],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1200, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_d4e303085b3fb81d5b82fc422c9c4cbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e1730439275058b0afb17d563eda3ea = $(`<div id="html_0e1730439275058b0afb17d563eda3ea" style="width: 100.0%; height: 100.0%;">광진구 - 침수 6회</div>`)[0];
+                popup_d4e303085b3fb81d5b82fc422c9c4cbd.setContent(html_0e1730439275058b0afb17d563eda3ea);
+            
+        
+
+        circle_1b0e37373d554ad3d40eac6d2db5a234.bindPopup(popup_d4e303085b3fb81d5b82fc422c9c4cbd)
+        ;
+
+        
+    
+    
+            var circle_8c170a934fc80c184cccfbaa57b7e939 = L.circle(
+                [37.495649, 126.88765],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2600, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_c0b5349b5ee4f57b2565f26121cdf9a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fc10941d5f22fe13d96be8e53fdb2ce = $(`<div id="html_9fc10941d5f22fe13d96be8e53fdb2ce" style="width: 100.0%; height: 100.0%;">구로구 - 침수 13회</div>`)[0];
+                popup_c0b5349b5ee4f57b2565f26121cdf9a9.setContent(html_9fc10941d5f22fe13d96be8e53fdb2ce);
+            
+        
+
+        circle_8c170a934fc80c184cccfbaa57b7e939.bindPopup(popup_c0b5349b5ee4f57b2565f26121cdf9a9)
+        ;
+
+        
+    
+    
+            var circle_42595c7a0ba94d899c7d4d014577a779 = L.circle(
+                [37.462941, 126.900995],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1400, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_1fc16f17cf5a76011022fd70122b4646 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f819150a86c0cf3b9124528820a6e36 = $(`<div id="html_6f819150a86c0cf3b9124528820a6e36" style="width: 100.0%; height: 100.0%;">금천구 - 침수 7회</div>`)[0];
+                popup_1fc16f17cf5a76011022fd70122b4646.setContent(html_6f819150a86c0cf3b9124528820a6e36);
+            
+        
+
+        circle_42595c7a0ba94d899c7d4d014577a779.bindPopup(popup_1fc16f17cf5a76011022fd70122b4646)
+        ;
+
+        
+    
+    
+            var circle_879c97bb38ed9f00c671b5cc7dc633ca = L.circle(
+                [37.654197, 127.056701],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1800, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_395a5d70750176eb9672c53362025f0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e1faae7857d238edb1119c641a1db0d = $(`<div id="html_9e1faae7857d238edb1119c641a1db0d" style="width: 100.0%; height: 100.0%;">노원구 - 침수 9회</div>`)[0];
+                popup_395a5d70750176eb9672c53362025f0f.setContent(html_9e1faae7857d238edb1119c641a1db0d);
+            
+        
+
+        circle_879c97bb38ed9f00c671b5cc7dc633ca.bindPopup(popup_395a5d70750176eb9672c53362025f0f)
+        ;
+
+        
+    
+    
+            var circle_fa29dec31dec3603b82978f5d0159f4c = L.circle(
+                [37.668952, 127.047092],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1200, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_a2a44326058db75018a9fef9852fd73f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ab31c1b6289bf17d11f613d5b5945bd = $(`<div id="html_6ab31c1b6289bf17d11f613d5b5945bd" style="width: 100.0%; height: 100.0%;">도봉구 - 침수 6회</div>`)[0];
+                popup_a2a44326058db75018a9fef9852fd73f.setContent(html_6ab31c1b6289bf17d11f613d5b5945bd);
+            
+        
+
+        circle_fa29dec31dec3603b82978f5d0159f4c.bindPopup(popup_a2a44326058db75018a9fef9852fd73f)
+        ;
+
+        
+    
+    
+            var circle_866eaa02f68a1eeb5c6cabcc7cad19ad = L.circle(
+                [37.57438, 127.039833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1600, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_04c22b1158240195bcf674448e18203b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0037156ae0fd48fe0c4b481383013a1b = $(`<div id="html_0037156ae0fd48fe0c4b481383013a1b" style="width: 100.0%; height: 100.0%;">동대문구 - 침수 8회</div>`)[0];
+                popup_04c22b1158240195bcf674448e18203b.setContent(html_0037156ae0fd48fe0c4b481383013a1b);
+            
+        
+
+        circle_866eaa02f68a1eeb5c6cabcc7cad19ad.bindPopup(popup_04c22b1158240195bcf674448e18203b)
+        ;
+
+        
+    
+    
+            var circle_be2c94a5bdcda9d0cf35549e5ba9c76e = L.circle(
+                [37.501398, 126.951158],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2200, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_ccb8298593d4280b53ea4357ec9989c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a527ca2068932dfdd29b31bc9f435dbd = $(`<div id="html_a527ca2068932dfdd29b31bc9f435dbd" style="width: 100.0%; height: 100.0%;">동작구 - 침수 11회</div>`)[0];
+                popup_ccb8298593d4280b53ea4357ec9989c9.setContent(html_a527ca2068932dfdd29b31bc9f435dbd);
+            
+        
+
+        circle_be2c94a5bdcda9d0cf35549e5ba9c76e.bindPopup(popup_ccb8298593d4280b53ea4357ec9989c9)
+        ;
+
+        
+    
+    
+            var circle_9b62e0f123d527e09abf7aad3363f9c1 = L.circle(
+                [37.566412, 126.902007],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2200, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_8648342c8b5f247c6a15615916cd9246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dca26787a2cc3126f8f44108d596dd8b = $(`<div id="html_dca26787a2cc3126f8f44108d596dd8b" style="width: 100.0%; height: 100.0%;">마포구 - 침수 11회</div>`)[0];
+                popup_8648342c8b5f247c6a15615916cd9246.setContent(html_dca26787a2cc3126f8f44108d596dd8b);
+            
+        
+
+        circle_9b62e0f123d527e09abf7aad3363f9c1.bindPopup(popup_8648342c8b5f247c6a15615916cd9246)
+        ;
+
+        
+    
+    
+            var circle_77eab08d8aba6aadad131279bbbc2592 = L.circle(
+                [37.579473, 126.936495],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_c0c9ba0f32e5200a3023b483654c0338 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f02c9ed163bd1f8bb9cf9817c160c08 = $(`<div id="html_7f02c9ed163bd1f8bb9cf9817c160c08" style="width: 100.0%; height: 100.0%;">서대문구 - 침수 25회</div>`)[0];
+                popup_c0c9ba0f32e5200a3023b483654c0338.setContent(html_7f02c9ed163bd1f8bb9cf9817c160c08);
+            
+        
+
+        circle_77eab08d8aba6aadad131279bbbc2592.bindPopup(popup_c0c9ba0f32e5200a3023b483654c0338)
+        ;
+
+        
+    
+    
+            var circle_bbc9a10a5ede067b87d5c237145af30a = L.circle(
+                [37.483689, 127.032785],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3400, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_bdb134fca222d9754613726ea28d6395 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75d80a4be95ff0ceb4dbde05bdc016d9 = $(`<div id="html_75d80a4be95ff0ceb4dbde05bdc016d9" style="width: 100.0%; height: 100.0%;">서초구 - 침수 17회</div>`)[0];
+                popup_bdb134fca222d9754613726ea28d6395.setContent(html_75d80a4be95ff0ceb4dbde05bdc016d9);
+            
+        
+
+        circle_bbc9a10a5ede067b87d5c237145af30a.bindPopup(popup_bdb134fca222d9754613726ea28d6395)
+        ;
+
+        
+    
+    
+            var circle_405aa42dd2a6686e44e1e96592f0695c = L.circle(
+                [37.563554, 127.036956],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2200, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_71be603d5aeccc64a933dfc492bc0898 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_996760dc147999e5426b3348f4d212a2 = $(`<div id="html_996760dc147999e5426b3348f4d212a2" style="width: 100.0%; height: 100.0%;">성동구 - 침수 11회</div>`)[0];
+                popup_71be603d5aeccc64a933dfc492bc0898.setContent(html_996760dc147999e5426b3348f4d212a2);
+            
+        
+
+        circle_405aa42dd2a6686e44e1e96592f0695c.bindPopup(popup_71be603d5aeccc64a933dfc492bc0898)
+        ;
+
+        
+    
+    
+            var circle_acc2feea3642039644cfaa8a5951a1bc = L.circle(
+                [37.589553, 127.016743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_e8fe6dbb3afaaa18ace5650dc197a84d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70c49441358ab4c760787640bfd66b6b = $(`<div id="html_70c49441358ab4c760787640bfd66b6b" style="width: 100.0%; height: 100.0%;">성북구 - 침수 15회</div>`)[0];
+                popup_e8fe6dbb3afaaa18ace5650dc197a84d.setContent(html_70c49441358ab4c760787640bfd66b6b);
+            
+        
+
+        circle_acc2feea3642039644cfaa8a5951a1bc.bindPopup(popup_e8fe6dbb3afaaa18ace5650dc197a84d)
+        ;
+
+        
+    
+    
+            var circle_e531f2a61385dbc04f3ae5f471671aa4 = L.circle(
+                [37.514666, 127.105915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1800, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_87e75c35e2ccfa043132df0a5e365861 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f61d5e04128c41a58f9e3fb4352693a = $(`<div id="html_1f61d5e04128c41a58f9e3fb4352693a" style="width: 100.0%; height: 100.0%;">송파구 - 침수 9회</div>`)[0];
+                popup_87e75c35e2ccfa043132df0a5e365861.setContent(html_1f61d5e04128c41a58f9e3fb4352693a);
+            
+        
+
+        circle_e531f2a61385dbc04f3ae5f471671aa4.bindPopup(popup_87e75c35e2ccfa043132df0a5e365861)
+        ;
+
+        
+    
+    
+            var circle_6e134c84dd222cde9ee4a049ca8782d3 = L.circle(
+                [37.517121, 126.866586],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1400, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_f861fece487ac81fde9f59b32ab9cf29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f5969fa2db3c268353599c07f44fef5 = $(`<div id="html_4f5969fa2db3c268353599c07f44fef5" style="width: 100.0%; height: 100.0%;">양천구 - 침수 7회</div>`)[0];
+                popup_f861fece487ac81fde9f59b32ab9cf29.setContent(html_4f5969fa2db3c268353599c07f44fef5);
+            
+        
+
+        circle_6e134c84dd222cde9ee4a049ca8782d3.bindPopup(popup_f861fece487ac81fde9f59b32ab9cf29)
+        ;
+
+        
+    
+    
+            var circle_5bbbcca6d6d326560b95a0f44c2a18d4 = L.circle(
+                [37.526441, 126.895942],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2200, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_f7b5e8c38acc26c46f567d8e4d44a45a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58b6cf0dfc5c96d56c68d265d724f0c4 = $(`<div id="html_58b6cf0dfc5c96d56c68d265d724f0c4" style="width: 100.0%; height: 100.0%;">영등포구 - 침수 11회</div>`)[0];
+                popup_f7b5e8c38acc26c46f567d8e4d44a45a.setContent(html_58b6cf0dfc5c96d56c68d265d724f0c4);
+            
+        
+
+        circle_5bbbcca6d6d326560b95a0f44c2a18d4.bindPopup(popup_f7b5e8c38acc26c46f567d8e4d44a45a)
+        ;
+
+        
+    
+    
+            var circle_d86feeb5c4c60afdd332acd285f83c86 = L.circle(
+                [37.532471, 126.990703],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_2a432bc9a8e8d09d1c0e2fa14536fa2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8035d820d904f5f7f65becb65425c5a9 = $(`<div id="html_8035d820d904f5f7f65becb65425c5a9" style="width: 100.0%; height: 100.0%;">용산구 - 침수 15회</div>`)[0];
+                popup_2a432bc9a8e8d09d1c0e2fa14536fa2a.setContent(html_8035d820d904f5f7f65becb65425c5a9);
+            
+        
+
+        circle_d86feeb5c4c60afdd332acd285f83c86.bindPopup(popup_2a432bc9a8e8d09d1c0e2fa14536fa2a)
+        ;
+
+        
+    
+    
+            var circle_2f461806a7372cbc26d7e4366c0cd2c9 = L.circle(
+                [37.602894, 126.929288],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4400, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_b2004871cf991a47ece3d965ba22bbd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_804f6144e95f3af5db5e60f814f11ffb = $(`<div id="html_804f6144e95f3af5db5e60f814f11ffb" style="width: 100.0%; height: 100.0%;">은평구 - 침수 22회</div>`)[0];
+                popup_b2004871cf991a47ece3d965ba22bbd7.setContent(html_804f6144e95f3af5db5e60f814f11ffb);
+            
+        
+
+        circle_2f461806a7372cbc26d7e4366c0cd2c9.bindPopup(popup_b2004871cf991a47ece3d965ba22bbd7)
+        ;
+
+        
+    
+    
+            var circle_3e3cabb02dd9347974c752110f1a0fd9 = L.circle(
+                [37.57363, 126.97893],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_7453735fead1dfebc26e6f93c7aefb21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2533bf80a272c74def9e021a8dff6492 = $(`<div id="html_2533bf80a272c74def9e021a8dff6492" style="width: 100.0%; height: 100.0%;">종로구 - 침수 10회</div>`)[0];
+                popup_7453735fead1dfebc26e6f93c7aefb21.setContent(html_2533bf80a272c74def9e021a8dff6492);
+            
+        
+
+        circle_3e3cabb02dd9347974c752110f1a0fd9.bindPopup(popup_7453735fead1dfebc26e6f93c7aefb21)
+        ;
+
+        
+    
+    
+            var circle_56bab885e3b7223a83c32618465c94be = L.circle(
+                [37.563963, 126.997627],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_cb313ecc5bed127905344ed9afe184f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03bfb3a1904137c5ca29212fcaa70999 = $(`<div id="html_03bfb3a1904137c5ca29212fcaa70999" style="width: 100.0%; height: 100.0%;">중구 - 침수 10회</div>`)[0];
+                popup_cb313ecc5bed127905344ed9afe184f6.setContent(html_03bfb3a1904137c5ca29212fcaa70999);
+            
+        
+
+        circle_56bab885e3b7223a83c32618465c94be.bindPopup(popup_cb313ecc5bed127905344ed9afe184f6)
+        ;
+
+        
+    
+    
+            var circle_243d5393497f9741d515721ba931bef2 = L.circle(
+                [37.6065, 127.093206],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1400, "stroke": true, "weight": 3}
+            ).addTo(map_2081a193a99f3f9ef4775b103b8c0db8);
+        
+    
+        var popup_4e71617e7c31102188587c21d0224c5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbb571c20ef9179197f1aeb5f15f4ce8 = $(`<div id="html_cbb571c20ef9179197f1aeb5f15f4ce8" style="width: 100.0%; height: 100.0%;">중랑구 - 침수 7회</div>`)[0];
+                popup_4e71617e7c31102188587c21d0224c5e.setContent(html_cbb571c20ef9179197f1aeb5f15f4ce8);
+            
+        
+
+        circle_243d5393497f9741d515721ba931bef2.bindPopup(popup_4e71617e7c31102188587c21d0224c5e)
+        ;
+
+        
+    
+</script>
+</html>
